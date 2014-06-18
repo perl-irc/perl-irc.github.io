@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>irc.perl.org - Governance</title>
+		<style>
+body { max-width: 50em; margin-left: auto; margin-right: auto; }
+		</style>
+
+	</head>
+	<body bgcolor="black" text="white" link="gray" alink="white" vlink="white"> 
+
+		<h1>Governance of irc.perl.org</h1>
+
+        <h2>Community Opers</h2>
+
+        <p>A channel, #magnet-srb, will be created, including a logging bot. These logs will be completely public and linked from the irc.perl.org website. This channel will serve as a open review board for Standards of Conduct (SoC) violations, including oper misconduct.</p>
+
+        <p>The SoC Review Board (SRB) will be staffed by a new class of oper, the community opers, who will be shepherded by Chris Prather (perigrin), an existing network oper. Community opers will have full authority over all channels and will be tasked with enforcing the SoC. Their rulings on community matters will serve as rule of law for the network. No changes will be made to the official standards of conduct without consulting the SRB.</p>
+
+        <p>The SRB must consider individual channel policy as well as the regular SoC in their rulings. As noted in the SoC, channel ops can create local policy, provided this policy is documented and made available to new channel members. The SRB can at any time determine that local channel policy is in direct conflict with network policy. The channel in question is expected to alter their policy or leave the network.</p>
+
+        <p>If a user thinks the policy of a public channel conflicts with network policy, they may bring the policy to the SRB for mediation. This is to be an approach of last resort and the user must provide evidence of channel discussion about the policy and detail why they think the SRB should intervene. The SRB may decline to intervene and, if so, the channel policy remains intact. Unless the channel constitutes a grave threat to the community or network, the policies of any +s, +p or +k channel will not be considered by the SRB.</p>
+
+        <p>If the SRB is notified of or discovers a channel or person who constitutes grave harm to the network, they must report this to the network opers who will act to purge the offending parties and take legal action if necessary. A great and sadly common example is the presence of a botnet command and control channel.</p>
+
+        <h2>Power Limitations</h2>
+
+        <p>Community opers <i>will not</i> have voting rights for or be consulted about network infrastructure or network security. It is expected, however, that they will be kept apprised of any ongoing security issues or outages.</p>
+
+        <p>Community opers <i>will not</i> have the ability to issue klines or glines, as these are a function of network operations. If the SRB determines that a kline or gline is necessary as part of SoC enforcment, they will bring this recommendation to the network opers via Chris Prather (perigrin), sungo or Matt Trout (mst). It is expected that the network opers will act on the recommendation of the community opers but they may challenge the decision if they wish. The matter will then be discussed openly in #magnet-srb.</p>
+
+        <h2>Oper Oversight</h2>
+
+        <p>Any oper action, including that of the community opers, can be challenged before the SRB. It is the responsibility of the SRB to determine if an oper has acted in bad faith. If misconduct has occurred, the SRB will designate someone to discuss the matter with the oper in question privately. Resolution of that discussion will be reported back to the SRB. The SRB has the power to revert channel bans, op status, etc and its ruling will be final.</p>
+
+        <p>Should the oper respond negatively or repeatedly act in bad faith, their status as oper must be evaluated. In the case of a community oper, the SRB can order that their oper status be removed. This matter must be brought to the community oper coordinator directly who will carry out that order in coordination with the network opers.</p>
+
+        <p>An unfortunate exception exists for network opers, who cannot have their status removed due to their operation of an irc node. Due to this special nature, when a network oper violates policy, the other network opers will deal with the individual privately and in a manner commensurate with the infraction. The coordinator of the Community Oper team will be involved in this process.</p>
+
+        <h2>Instantiation</h2>
+
+        <p>An initial group of three community opers, in addition to the aforementioned shepherds, will be hand selected by the current network opers. Initially, they will be given two tasks. First, they shall work with the network opers to draw up an official charter based on the rules and guidelines laid forth in the proposal. Second, they shall draft policies regarding the selection and removal of future community opers.</p>
+
+        <p>A initial face to face meeting will be held at YAPC 2014. Within 6 months of that gathering, the SRB must publish these policies on the irc.perl.org website and select at least two additional community opers.</p>
+
+        <h2>Infrastructure</h2>
+
+        <p>Current unwritten network policy states that server admins can create opers as needed for the maintenance of their node(s). As such, community opers, for now, will connect to a private node run by sungo and co-maintained by mst and perigrin. They will be given special hostmasks (something like 'community.oper') to make their status more visible and to help disguise their connection parameters. Both the private node and hostmasks will help protect the SRB from network attacks that may occur as a result of their governance.</p>
+
+        <p>It is expected that a SPOF-free architecture for community oper infrastructure will be created within one year of the ratification of the SRB selection policies.</p>
+
+    </body>
+</html>
